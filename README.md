@@ -17,9 +17,6 @@ I'm proactive, adaptable and reactive software specialist and architect having 2
 ⚬ Data Management & Analytics
 ⚬ Team Leadership & Project Management
 
-☍ LinkedIn account: @kadir-atesoglu 
-☍ HackerRank account: @atesoglu 
-
 Want to have a word? Do not hesitate to contact me.
 
 ## 𝗦𝘁𝗮𝘁𝘀
