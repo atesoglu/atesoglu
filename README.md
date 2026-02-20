@@ -1,4 +1,4 @@
-### Hey 👋, I'm Kadir Atesoglu
+### Hey there 👋, I'm Kadir
 
 [![](https://img.shields.io/badge/-@kadiratesoglu-%231DA1F2?style=flat-square&logo=twitter&logoColor=ffffff)](https://twitter.com/kadiratesoglu)
 [![](https://img.shields.io/badge/-@atesoglu-%23181717?style=flat-square&logo=github)](https://github.com/atesoglu)
@@ -18,7 +18,3 @@ I'm proactive, adaptable and reactive software specialist and architect having 2
 ⚬ Team Leadership & Project Management
 
 Want to have a word? Do not hesitate to contact me.
-
-## 𝗦𝘁𝗮𝘁𝘀
-
-![atesoglu's github stats](https://github-readme-stats.vercel.app/api?username=atesoglu&show_icons=true)
