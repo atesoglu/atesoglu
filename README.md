@@ -7,14 +7,5 @@
 <img src="https://komarev.com/ghpvc/?username=atesoglu&color=9e9e9e&style=flat-square" />
 
 #### *I'm crafting software and enjoying what I do*
-I'm proactive, adaptable and reactive software specialist and architect having 20+ years experience on;
-
-⚬ Information Architecture
-⚬ Software Engineering
-⚬ Database Design & Development
-⚬ Business Integration and SOA
-⚬ BPM, Operational Excellence and Digital Transformation
-⚬ Data Management & Analytics
-⚬ Team Leadership & Project Management
 
 Want to have a word? Do not hesitate to contact me.
