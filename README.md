@@ -6,6 +6,6 @@
 [![](https://img.shields.io/website?color=0ab9e6&style=flat-square&up_message=atesoglu.me&url=https%3A%2F%2Fatesoglu.me)](https://atesoglu.me)
 <img src="https://komarev.com/ghpvc/?username=atesoglu&color=9e9e9e&style=flat-square" />
 
-#### *I'm crafting software and enjoying what I do*
+*I'm crafting software and enjoying what I do.*
 
 Want to have a word? Do not hesitate to contact me.
