@@ -1,0 +1,82 @@
+name: CI
+
+on:
+  push:
+    branches: [main]
+  pull_request:
+  workflow_dispatch:
+
+permissions:
+  contents: read
+
+jobs:
+  lint:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v7
+
+      - name: Shell syntax
+        run: git ls-files '*.sh' | xargs -r -n1 bash -n
+
+      - name: ShellCheck
+        run: git ls-files '*.sh' | xargs -r shellcheck -x
+
+      - name: Executable bits
+        run: |
+          fail=0
+          for f in $(git ls-files '*.sh'); do
+            # scripts/lib/ is sourced, never executed.
+            case "$f" in scripts/lib/*) continue ;; esac
+            if [ ! -x "$f" ]; then
+              echo "::error file=$f::missing executable bit; fix with: git update-index --chmod=+x $f"
+              fail=1
+            fi
+          done
+          exit "$fail"
+
+      - name: Compose config
+        run: |
+          docker compose --env-file .env-sample \
+            -f docker/compose.observability.yaml -f docker/compose.database.yaml \
+            --project-directory . -p dev-resources config --quiet
+
+      - name: Line endings
+        run: |
+          bad=$(git ls-files -z | xargs -0 grep -lI $'\r' || true)
+          if [ -n "$bad" ]; then
+            echo "::error::CRLF line endings found in:"
+            echo "$bad"
+            exit 1
+          fi
+
+  go:
+    runs-on: ubuntu-latest
+    defaults:
+      run:
+        working-directory: cli
+    steps:
+      - uses: actions/checkout@v7
+
+      - uses: actions/setup-go@v7
+        with:
+          go-version-file: cli/go.mod
+          # No third-party dependencies yet, so there is no go.sum to key a cache on.
+          cache: false
+
+      - name: gofmt
+        run: |
+          unformatted=$(gofmt -l .)
+          if [ -n "$unformatted" ]; then
+            echo "::error::not gofmt-clean:"
+            echo "$unformatted"
+            exit 1
+          fi
+
+      - name: Vet
+        run: go vet ./...
+
+      - name: Build
+        run: go build ./...
+
+      - name: Test
+        run: go test ./...

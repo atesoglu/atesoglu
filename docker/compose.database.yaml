@@ -1,0 +1,65 @@
+services:
+  postgres:
+    image: docker.io/library/postgres:18.6
+    container_name: postgres-db
+    restart: unless-stopped
+    environment:
+      POSTGRES_USER: ${POSTGRES_USER}
+      POSTGRES_PASSWORD: ${POSTGRES_PASSWORD}
+      POSTGRES_DB: ${POSTGRES_DB}
+    ports:
+      - "127.0.0.1:5432:5432"
+    volumes:
+      # PostgreSQL 18 moved PGDATA to /var/lib/postgresql/18/docker, so the volume takes the parent.
+      - postgres_data:/var/lib/postgresql
+      # Relative to the project directory (the repo root), not to this file.
+      - ./docker/database/init-postgres.sql:/docker-entrypoint-initdb.d/init-postgres.sql:Z
+    healthcheck:
+      test: ["CMD-SHELL", "pg_isready -U $${POSTGRES_USER} -d $${POSTGRES_DB}"]
+      interval: 10s
+      timeout: 5s
+      retries: 10
+      start_period: 10s
+    deploy:
+      resources:
+        limits:
+          memory: 1g
+    networks:
+      - dev-net
+
+  redis:
+    image: docker.io/library/redis:8.10.1
+    container_name: redis-cache
+    restart: unless-stopped
+    environment:
+      # Not read by the image; present so the healthcheck can authenticate.
+      REDIS_PASSWORD: ${REDIS_PASSWORD}
+    ports:
+      - "127.0.0.1:${REDIS_PORT}:6379"
+    volumes:
+      - redis_data:/data
+    # maxmemory stays under the container limit below so Redis evicts instead of being OOM-killed.
+    command: >
+      redis-server --save 60 1 --loglevel warning
+      --requirepass ${REDIS_PASSWORD}
+      --maxmemory 384mb --maxmemory-policy allkeys-lru
+    healthcheck:
+      test: ["CMD-SHELL", "redis-cli -a $${REDIS_PASSWORD} ping | grep -q PONG"]
+      interval: 10s
+      timeout: 5s
+      retries: 10
+      start_period: 10s
+    deploy:
+      resources:
+        limits:
+          memory: 512m
+    networks:
+      - dev-net
+
+networks:
+  dev-net:
+    driver: bridge
+
+volumes:
+  postgres_data:
+  redis_data:

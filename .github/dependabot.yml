@@ -1,0 +1,20 @@
+version: 2
+
+# Note: the Elastic images are pinned via ${ELASTIC_VERSION} in .env-sample, which Dependabot
+# cannot read. Bump that by hand; only the postgres and redis tags are updated automatically.
+updates:
+  - package-ecosystem: docker-compose
+    directory: /docker
+    schedule:
+      interval: weekly
+    open-pull-requests-limit: 5
+
+  - package-ecosystem: github-actions
+    directory: /
+    schedule:
+      interval: weekly
+
+  - package-ecosystem: gomod
+    directory: /cli
+    schedule:
+      interval: weekly
