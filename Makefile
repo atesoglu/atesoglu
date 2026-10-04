@@ -7,64 +7,64 @@ help: ## Show this help
 	@grep -hE '^[a-zA-Z_-]+:.*## ' $(MAKEFILE_LIST) | awk -F':.*## ' '{printf "  %-14s %s\n", $$1, $$2}'
 
 # Go CLI tools
-.PHONY: cli-install
-cli-install: ## Build and install the Go tools into $$GOBIN
-	$(MAKE) -C cli install
+.PHONY: tools-install
+tools-install: ## Build and install the Go tools into $$GOBIN
+	$(MAKE) -C tools/go install
 
-.PHONY: cli-build
-cli-build: ## Build the Go tools into cli/bin
-	$(MAKE) -C cli build
+.PHONY: tools-build
+tools-build: ## Build the Go tools into tools/go/bin
+	$(MAKE) -C tools/go build
 
-.PHONY: cli-test
-cli-test: ## Run the Go tests
-	$(MAKE) -C cli test
+.PHONY: tools-test
+tools-test: ## Run the Go tests
+	$(MAKE) -C tools/go test
 
-.PHONY: cli-lint
-cli-lint: ## Run Go linters (fmt, vet)
-	$(MAKE) -C cli fmt-check
-	$(MAKE) -C cli vet
+.PHONY: tools-lint
+tools-lint: ## Run Go linters (fmt, vet)
+	$(MAKE) -C tools/go fmt-check
+	$(MAKE) -C tools/go vet
 
 # Docker stack (database + observability)
 .PHONY: up
 up: ## Start the Docker stack and wait for health
-	scripts/start.sh
+	tools/scripts/start.sh
 
 .PHONY: down
 down: ## Stop the stack and DELETE all volumes
-	scripts/teardown.sh
+	tools/scripts/teardown.sh
 
 .PHONY: status
 status: ## Show container status
-	scripts/status.sh
+	tools/scripts/status.sh
 
 .PHONY: logs
 logs: ## Follow container logs
-	scripts/logs.sh
+	tools/scripts/logs.sh
 
 .PHONY: psql
 psql: ## Open a psql shell on the Postgres container
-	scripts/psql.sh
+	tools/scripts/psql.sh
 
 .PHONY: backup
 backup: ## Dump the database into backups/
-	scripts/backup.sh
+	tools/scripts/backup.sh
 
 .PHONY: restore
 restore: ## Restore a database dump
-	scripts/restore.sh
+	tools/scripts/restore.sh
 
 # Scripts
 .PHONY: clean-dotnet
 clean-dotnet: ## Delete bin/ and obj/ directories in .NET projects
-	scripts/clean-dotnet.sh
+	tools/scripts/clean-dotnet.sh
 
 .PHONY: rename-files
 rename-files: ## Tidy filenames (strip prefixes, underscores to spaces)
-	scripts/renamer.sh
+	tools/scripts/renamer.sh
 
 # Linting
 .PHONY: lint
-lint: shell-lint compose-config cli-lint ## Run everything CI runs
+lint: shell-lint compose-config tools-lint ## Run everything CI runs
 
 .PHONY: shell-lint
 shell-lint: ## Syntax-check and ShellCheck every script
@@ -74,10 +74,10 @@ shell-lint: ## Syntax-check and ShellCheck every script
 .PHONY: compose-config
 compose-config: ## Validate the Compose files against .env-sample
 	docker compose --env-file .env-sample \
-		-f docker/compose.observability.yaml -f docker/compose.database.yaml \
+		-f tools/docker/compose.observability.yaml -f tools/docker/compose.database.yaml \
 		--project-directory . -p dev-resources config --quiet
 
 # Clean
 .PHONY: clean
 clean: ## Remove build output
-	$(MAKE) -C cli clean
+	$(MAKE) -C tools/go clean

@@ -1,4 +1,4 @@
-# Writings
+# Knowledge Base
 
 A collection of personal and professional notes on software engineering, architecture, career growth, team leadership, and workplace practices.
 
@@ -6,11 +6,10 @@ A collection of personal and professional notes on software engineering, archite
 
 ## Contents
 
-### [Personal Knowledge Base](personal/)
-*Durable personal insights, experiences, and learnings focused on software engineering and professional practice.*
+### [Engineering](personal/software-engineering-practices/)
+*Core principles, coding standards, architecture, testing, and system design.*
 
-#### Software Engineering Practices
-Core principles, coding standards, and methodologies.
+#### Practices
 - [Applying Abstractions](personal/software-engineering-practices/applying-abstractions.md)
 - [Async, Task and ValueTask](personal/software-engineering-practices/async-task-and-valuetask.md)
 - [Agile Principles](personal/software-engineering-practices/agile-principles.md)
@@ -30,8 +29,7 @@ Core principles, coding standards, and methodologies.
 - [SOLID Principles](personal/software-engineering-practices/solid-principles.md)
 - [Why Rewrite?](personal/software-engineering-practices/why-rewrite.md)
 
-#### Architecture & System Design
-System design, distributed systems, and architecture patterns.
+#### Architecture
 - [Creating a Loosely Coupled Monolith](personal/architecture-and-system-design/creating-loosely-coupled-monolith.md)
 - [Loosely Coupled Monolith (2025)](personal/architecture-and-system-design/loosely-coupled-monolith-2025.md)
 - [Loosely Coupled Monolith Structure](personal/architecture-and-system-design/loosely-coupled-monolith-structure.md)
@@ -41,8 +39,7 @@ System design, distributed systems, and architecture patterns.
 - [Thin vs Fat Events](personal/architecture-and-system-design/thin-vs-fat-events.md)
 - [Transaction Script vs DDD](personal/architecture-and-system-design/transaction-script-vs-ddd.md)
 
-#### Testing & Quality Assurance
-Testing strategies, TDD, and QA processes.
+#### Testing
 - [Automated Testing](personal/testing-quality-assurance/automated-testing.md)
 - [Cloud Automated Testing](personal/testing-quality-assurance/cloud-automated-testing.md)
 - [.NET Runtime Metrics](personal/testing-quality-assurance/dotnet-runtime-metrics.md)
@@ -57,41 +54,10 @@ Testing strategies, TDD, and QA processes.
 - [Testing Tools & Approaches](personal/testing-quality-assurance/testing-tools-and-approaches.md)
 - [Why Testing Matters](personal/testing-quality-assurance/why-testing-matters.md)
 
-#### Processes & Operations
-Estimation, tactical processes, and operational guides.
-- [Data Management](personal/processes-operations/data-management.md)
-- [Process Improvement (PIP)](personal/processes-operations/process-improvement-plan-pip.md)
-- [Proposal Preparation Guide](personal/processes-operations/proposal-preparation-guide.md)
-- [Software Estimation Guide](personal/processes-operations/software-estimation-guide.md)
+### [Career & Leadership](personal/career-growth/)
+*Career development, role expectations, interview preparation, and people management.*
 
-#### Team Management & Mentoring
-Leadership, hiring, and people management.
-- [Better Interview Questions](personal/team-management-mentoring/better-interview-questions.md)
-- [Guiding Colleagues](personal/team-management-mentoring/guiding-colleagues-on-outdated-methods.md)
-- [Handling Underperformance](personal/team-management-mentoring/handling-underperforming-employees.md)
-- [Hiring: Efficiency vs Relationships](personal/team-management-mentoring/hiring-efficiency-vs-relationships.md)
-- [Interview Prep Guide](personal/team-management-mentoring/interview-prep-guide.md)
-- [Interview Preparation Tips](personal/team-management-mentoring/interview-preparation-tips.md)
-- [Interview Questions & Post-Interview](personal/team-management-mentoring/interview-questions-and-post-interview-dos-and-donts.md)
-- [Leadership Readiness](personal/team-management-mentoring/leadership-readiness.md)
-- [Mistakes as New Manager](personal/team-management-mentoring/mistakes-as-new-manager.md)
-- [Questions to Ask Interviewer](personal/team-management-mentoring/questions-to-ask-interviewer.md)
-- [Two-Minute Pitch](personal/team-management-mentoring/two-minute-pitch.md)
-
-#### Career Growth
-Personal career planning, promotions, and role definitions.
-- [Architect Competency Matrix](personal/career-growth/architect-competency-matrix.md)
-- [Backend Motivations](personal/career-growth/backend-engineering-motivations.md)
-- [Career Transition Plan](personal/career-growth/career-transition-plan.md)
-- [Contributions to Company](personal/career-growth/contributions-to-company.md)
-- [Personal Development Plan](personal/career-growth/personal-development-plan.md)
-- [Product-Minded Engineering](personal/career-growth/product-minded-engineering.md)
-- [Promotion Panel Guidelines](personal/career-growth/promotion-panel-guidelines.md)
-- [Real Work of Senior Engineers](personal/career-growth/real-work-of-senior-engineers.md)
-- [Software Engineer OKRs](personal/career-growth/software-engineer-okr-examples.md)
-- [Success Factors](personal/career-growth/success-factors-notes.md)
-
-##### Leadership Ladder
+#### Role Ladder
 | Role | Onboarding | Long-Term Success | Expectations |
 |------|------------|-------------------|--------------|
 | **Senior Software Engineer** | [Guide](personal/career-growth/senior-engineer-onboarding-guide.md) | [Success](personal/career-growth/senior-engineer-long-term-success.md) | [Expectations](personal/career-growth/senior-engineer-role-expectations.md) |
@@ -103,15 +69,51 @@ Personal career planning, promotions, and role definitions.
 | **VP of Engineering** | [Guide](personal/career-growth/vp-onboarding-guide.md) | [Success](personal/career-growth/vp-long-term-success.md) | [Expectations](personal/career-growth/vp-role-expectations.md) |
 | **CTO** | [Guide](personal/career-growth/cto-onboarding-guide.md) | [Success](personal/career-growth/cto-long-term-success.md) | [Expectations](personal/career-growth/cto-role-expectations.md) |
 
-#### Productivity & Habits
-Personal efficacy and time management.
+#### Development & Planning
+- [Architect Competency Matrix](personal/career-growth/architect-competency-matrix.md)
+- [Backend Motivations](personal/career-growth/backend-engineering-motivations.md)
+- [Career Transition Plan](personal/career-growth/career-transition-plan.md)
+- [Contributions to Company](personal/career-growth/contributions-to-company.md)
+- [Personal Development Plan](personal/career-growth/personal-development-plan.md)
+- [Product-Minded Engineering](personal/career-growth/product-minded-engineering.md)
+- [Promotion Panel Guidelines](personal/career-growth/promotion-panel-guidelines.md)
+- [Real Work of Senior Engineers](personal/career-growth/real-work-of-senior-engineers.md)
+- [Software Engineer OKRs](personal/career-growth/software-engineer-okr-examples.md)
+- [Success Factors](personal/career-growth/success-factors-notes.md)
+
+#### Interviews & Hiring
+- [Better Interview Questions](personal/team-management-mentoring/better-interview-questions.md)
+- [Interview Prep Guide](personal/team-management-mentoring/interview-prep-guide.md)
+- [Interview Preparation Tips](personal/team-management-mentoring/interview-preparation-tips.md)
+- [Interview Questions & Post-Interview](personal/team-management-mentoring/interview-questions-and-post-interview-dos-and-donts.md)
+- [Questions to Ask Interviewer](personal/team-management-mentoring/questions-to-ask-interviewer.md)
+- [Two-Minute Pitch](personal/team-management-mentoring/two-minute-pitch.md)
+
+#### People Management
+- [Guiding Colleagues](personal/team-management-mentoring/guiding-colleagues-on-outdated-methods.md)
+- [Handling Underperformance](personal/team-management-mentoring/handling-underperforming-employees.md)
+- [Hiring: Efficiency vs Relationships](personal/team-management-mentoring/hiring-efficiency-vs-relationships.md)
+- [Leadership Readiness](personal/team-management-mentoring/leadership-readiness.md)
+- [Mistakes as New Manager](personal/team-management-mentoring/mistakes-as-new-manager.md)
+
+### [Operations](personal/processes-operations/)
+*Estimation, tactical processes, proposals, and data management.*
+
+- [Data Management](personal/processes-operations/data-management.md)
+- [Process Improvement (PIP)](personal/processes-operations/process-improvement-plan-pip.md)
+- [Proposal Preparation Guide](personal/processes-operations/proposal-preparation-guide.md)
+- [Software Estimation Guide](personal/processes-operations/software-estimation-guide.md)
+
+### [Productivity](personal/productivity-habits/)
+*Personal effectiveness and time management.*
+
 - [Time Management Techniques](personal/productivity-habits/time-management-techniques.md)
 - [Workspace Setup](personal/productivity-habits/workspace-setup.md)
 
-#### Resources
-- [Quotes](personal/resources/quotes.md)
+### [References](personal/resources/)
+*Reference material and collections.*
 
----
+- [Quotes](personal/resources/quotes.md)
 
 ### [Workplace](workplace/)
 *General workplace-related notes not tied to any specific employer.*
@@ -122,6 +124,19 @@ Personal efficacy and time management.
 - [Engineering Work and Leadership](workplace/engineering-work-and-leadership.md)
 - [Greetings](workplace/greetings.md)
 - [Leadership](workplace/leadership.md)
+
+### [Decisions](decisions/)
+*Architecture decision records, tradeoff analyses, and lessons learned.*
+
+*(This section is a placeholder for future ADRs and decision logs.)*
+
+---
+
+## Related Areas
+
+- **[Developer Tools](../tools/)** — Go CLI utilities, Docker stacks, and Bash scripts
+- **[AI Prompts](../prompts/)** — Reusable prompts for engineering review, writing, and investigation
+- **[Editorial](../editorial/)** — Writing drafts and published pieces
 
 ---
 

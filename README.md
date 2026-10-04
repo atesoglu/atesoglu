@@ -10,15 +10,26 @@ Want to have a word? Do not hesitate to contact me.
 
 ---
 
-### 📚 [Knowledge Base](knowledge-base/)
+## 📚 [Knowledge](knowledge/)
 
-A published collection of my personal and professional notes on software engineering, architecture, career growth, team leadership, and workplace practices.
+A published collection of personal and professional notes on software engineering, architecture, career growth, team leadership, and workplace practices.
+
+- [Engineering](knowledge/personal/software-engineering-practices/) — Practices, architecture, testing
+- [Career & Leadership](knowledge/personal/career-growth/) — Role ladder, interviews, people management
+- [Operations](knowledge/personal/processes-operations/) — Estimation, processes, proposals
+- [Productivity](knowledge/personal/productivity-habits/) — Time management, workspace
+- [References](knowledge/personal/resources/) — Quotes, collections
+- [Workplace](knowledge/workplace/) — General workplace notes
+- [Decisions](knowledge/decisions/) — ADRs, tradeoffs, lessons learned *(placeholder)*
 
 ---
 
-### 🛠️ [Developer Tools](cli/)
+## 🛠️ [Tools](tools/)
 
-Small, self-contained Go CLI utilities for development and automation. Built as a multi-binary Go module.
+Developer tooling: Go CLI utilities, Docker stacks, and Bash scripts.
+
+### Go CLI (`tools/go/`)
+Small, self-contained utilities built as a multi-binary Go module.
 
 | Utility | Description |
 |---------|-------------|
@@ -26,38 +37,13 @@ Small, self-contained Go CLI utilities for development and automation. Built as 
 | `rename` | Bulk file renaming (placeholder) |
 
 ```bash
-go run ./cli/cmd/commits
-go run ./cli/cmd/rename
+go run ./tools/go/cmd/commits
+go run ./tools/go/cmd/rename
 # Or install all tools:
-make -C cli install
+make -C tools/go install
 ```
 
----
-
-### 📝 [Prompts](prompts/)
-
-Reusable AI prompts for engineering review, writing, and repository analysis.
-
-- [Repository Review](prompts/repository-review.md) — Principal-level .NET architecture & performance review
-- [Technical Companion](prompts/technical-companion.md) — Co-architect for high-performance .NET systems
-- [Repository Review (DDD)](prompts/repository-review-ddd.md) — DDD-focused architecture review
-- [Repository Investigation](prompts/repository-investigation-prompt.md) — Deep-dive repo analysis
-- [DevOps/Cloud Review](prompts/devops-cloud-repository-review.md) — Infrastructure & cloud review
-- [Test Integrator](prompts/test-integrator.md) — Testing strategy design
-- [Editorial Companion](prompts/editorial-companion.md) — Technical writing co-editor
-- [Medium Intellectual](prompts/medium-intellectual-0.md) — Intellectual article style
-- [Medium Reviewer](prompts/medium-reviewer-0.md) — Article review persona
-
----
-
-### 📰 [Editorial](editorial/)
-
-Drafts and notes for technical writing (Medium, blog posts, etc.).
-
----
-
-### 🐳 [Developer Environment](docker/)
-
+### Docker (`tools/docker/`)
 Containerised local development stack: PostgreSQL 18, Redis 8, Elasticsearch, Kibana.
 
 ```bash
@@ -68,10 +54,7 @@ make psql      # Interactive psql
 make down      # Stop and DELETE all volumes
 ```
 
----
-
-### 📜 [Scripts](scripts/)
-
+### Scripts (`tools/scripts/`)
 Bash utilities for the Docker stack and file operations.
 
 | Script | Purpose |
@@ -90,13 +73,41 @@ All scripts run under `set -euo pipefail` and resolve the repo root themselves.
 
 ---
 
-### 📋 Make Targets
+## 📝 [Prompts](prompts/)
+
+Reusable AI prompts for engineering review, writing, and repository analysis.
+
+### Engineering Review
+- [Repository Review](prompts/repository-review.md) — Principal-level .NET architecture & performance review
+- [Technical Companion](prompts/technical-companion.md) — Co-architect for high-performance .NET systems
+- [Repository Review (DDD)](prompts/repository-review-ddd.md) — DDD-focused architecture review
+- [Repository Investigation](prompts/repository-investigation-prompt.md) — Deep-dive repo analysis
+- [DevOps/Cloud Review](prompts/devops-cloud-repository-review.md) — Infrastructure & cloud review
+- [Test Integrator](prompts/test-integrator.md) — Testing strategy design
+
+### Writing & Editorial
+- [Editorial Companion](prompts/editorial-companion.md) — Technical writing co-editor
+- [Medium Intellectual](prompts/medium-intellectual-0.md) — Intellectual article style
+- [Medium Reviewer](prompts/medium-reviewer-0.md) — Article review persona
+
+---
+
+## 📰 [Editorial](editorial/)
+
+Drafts and notes for technical writing (Medium, blog posts, etc.).
+
+- `drafts/` — Work in progress
+- `published/` — Final pieces
+
+---
+
+## 📋 Make Targets
 
 ```bash
-make           # List all targets
-make up        # Start Docker stack
-make down      # Stop stack + delete volumes
-make cli-install  # Install Go tools to $$GOBIN
-make lint      # ShellCheck, Compose config, gofmt, go vet
-make clean     # Remove build output
+make              # List all targets
+make up           # Start Docker stack
+make down         # Stop stack + delete volumes
+make tools-install # Install Go tools to $$GOBIN
+make lint         # ShellCheck, Compose config, gofmt, go vet
+make clean        # Remove build output
 ```
