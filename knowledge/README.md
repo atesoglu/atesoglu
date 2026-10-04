@@ -136,7 +136,7 @@ A collection of personal and professional notes on software engineering, archite
 
 - **[Developer Tools](../tools/)** — Go CLI utilities, Docker stacks, and Bash scripts
 - **[AI Prompts](../prompts/)** — Reusable prompts for engineering review, writing, and investigation
-- **[Editorial](../editorial/)** — Writing drafts and published pieces
+- **[Writings](../writings/)** — Writing drafts and published pieces
 
 ---
 

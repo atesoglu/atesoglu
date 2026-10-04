@@ -1,11 +1,11 @@
-# Editorial
+# Writings
 
 Drafts, notes, and published pieces for technical writing (Medium, blog posts, etc.).
 
 ## Structure
 
 ```
-editorial/
+writings/
 ├── drafts/     # Work in progress — incomplete, unpolished
 └── published/  # Final pieces ready for publication
 ```

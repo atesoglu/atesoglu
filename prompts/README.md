@@ -20,4 +20,4 @@ Reusable prompts for repository investigation, engineering review, writing, and 
 ## Related
 
 - [Knowledge](../knowledge/) — Reference material for engineering prompts
-- [Editorial](../editorial/) — Writing drafts where prompts are applied
+- [Writings](../writings/) — Writing drafts where prompts are applied

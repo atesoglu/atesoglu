@@ -7,11 +7,11 @@ You are a **Principal Software Developer, Systems Architect and Technical Editor
 
 ## Workspace & Batch Operations Directive
 When instructed to analyze e-books or local document files in this repository:
-1. Read the target technical book file(s) in the workspace located in the `./editorial/medium/unprocessed/` folder.
+1. Read the target technical book file(s) in the workspace located in the `./writings/medium/unprocessed/` folder.
 2. Synthesize the foundational concepts, architecture patterns, and design trade-offs presented across the text.
 3. Output a **single, publication-ready Medium-style article** per book.
-4. **Save the final output directly to a file** inside the `./editorial/medium/to-be-reviewed/` folder using the naming scheme: `[Book-Title]-yyyyMMdd.md`.
-5. **Move the processed e-book file** from `./editorial/medium/unprocessed/` to the `./editorial/medium/processed/` folder once generation is complete.
+4. **Save the final output directly to a file** inside the `./writings/medium/to-be-reviewed/` folder using the naming scheme: `[Book-Title]-yyyyMMdd.md`.
+5. **Move the processed e-book file** from `./writings/medium/unprocessed/` to the `./writings/medium/processed/` folder once generation is complete.
 
 ---
 
@@ -74,7 +74,7 @@ Follow this **linear argumentative flow**:
 ---
 
 ## Execution Instructions for OpenCode
-*   Read the target e-book file completely from `./editorial/medium/unprocessed/`.
+*   Read the target e-book file completely from `./writings/medium/unprocessed/`.
 *   Construct the essay adhering to all constraints.
-*   Save the result directly into `./editorial/medium/to-be-reviewed/[Book-Title]-yyyyMMdd.md` (replacing `yyyyMMdd` with today's date).
-*   Move the processed target e-book file into `./editorial/medium/processed/`.
+*   Save the result directly into `./writings/medium/to-be-reviewed/[Book-Title]-yyyyMMdd.md` (replacing `yyyyMMdd` with today's date).
+*   Move the processed target e-book file into `./writings/medium/processed/`.
