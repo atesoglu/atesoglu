@@ -1,7 +1,7 @@
 Review the PR with the following details:
 
 **Branch/PR:** {{BRANCH_NAME_OR_PR_NUMBER}}
-**Target Branch:** {{TARGET_BRANCH (e.g., master/main)}}
+**Target Branch:** main
 **Commits:** {{COMMA_SEPARATED_SHAS}}
 
 **Description:**
