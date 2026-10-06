@@ -9,35 +9,35 @@ Review the PR with the following details:
 
 ---
 
-### Please verify:
+### Please verify (if any of the below applicable):
 
 #### 1. Code Correctness
-- [ ] New APIs used correctly (check: {{SPECIFIC_API_MIGRATION_E.G._Azure.Messaging.ServiceBus}})
-- [ ] Async/await patterns correct — no `.Result`, `.Wait()`, sync-over-async
-- [ ] Cancellation tokens propagated through async call chains
-- [ ] Resource disposal: clients/senders implement `IAsyncDisposable` or wrapped in `using`/`await using`
+- New APIs and nuget packages used correctly
+- Async/await patterns correct — no `.Result`, `.Wait()`, sync-over-async
+- Cancellation tokens propagated through async call chains
+- Resource disposal: clients/senders implement `IAsyncDisposable` or wrapped in `using`/`await using`
 
 #### 2. Error Handling & Resilience
-- [ ] Retry policies configured appropriately
-- [ ] Exception types updated for new SDK
-- [ ] Dead-letter / poison message handling preserved
-- [ ] Logging/diagnostics maintained or improved
+- Retry policies configured appropriately
+- Exception types updated for new SDK
+- Dead-letter / poison message handling preserved
+- Logging/diagnostics maintained or improved
 
 #### 3. No Regressions
-- [ ] Preserved functionality: {{LIST_PRESERVED_COMPONENTS_E.G._Queue.V2,_mail_workflow}}
-- [ ] Config updated: connection strings, auth, serialization settings
-- [ ] No breaking changes to public contracts unless intentional
+- Preserved functionality
+- Config updated: connection strings, auth, serialization settings
+- No breaking changes to public contracts unless intentional
 
 #### 4. Quality Gates (run commands)
-- [ ] `dotnet build` — zero warnings/errors
-- [ ] `dotnet test` — all pass, coverage acceptable
-- [ ] `dotnet format` / linter — clean
-- [ ] Any integration/contract tests pass
+- `dotnet build` — zero errors (and ideally no warnings)
+- `dotnet test` — all pass, coverage acceptable
+- `dotnet format` / linter — clean
+- Any integration/contract tests pass
 
 #### 5. Security & Ops
-- [ ] No secrets in code/config
-- [ ] Managed identity / Azure AD auth used where possible
-- [ ] Telemetry/metrics updated for new client
+- No secrets in code/config
+- Managed identity / Azure AD auth used where possible
+- Telemetry/metrics updated for new client
 
 ---
 
