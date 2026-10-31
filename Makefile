@@ -69,7 +69,7 @@ lint: shell-lint compose-config tools-lint ## Run everything CI runs
 .PHONY: shell-lint
 shell-lint: ## Syntax-check and ShellCheck every script
 	git ls-files '*.sh' | xargs -r -n1 bash -n
-	git ls-files '*.sh' | xargs -r shellcheck -x
+	git ls-files '*.sh' | xargs -r shellcheck -x --source-path=tools
 
 .PHONY: compose-config
 compose-config: ## Validate the Compose files against .env-sample

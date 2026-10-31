@@ -19,7 +19,7 @@ jobs:
         run: git ls-files '*.sh' | xargs -r -n1 bash -n
 
       - name: ShellCheck
-        run: git ls-files '*.sh' | xargs -r shellcheck -x
+        run: git ls-files '*.sh' | xargs -r shellcheck -x --source-path=tools
 
       - name: Executable bits
         run: |
