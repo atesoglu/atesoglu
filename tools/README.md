@@ -7,7 +7,7 @@ Developer tooling: Go CLI utilities, Docker stacks, and Bash scripts.
 ```
 tools/
 ├── go/        # Go multi-binary CLI module
-├── docker/    # Docker Compose stacks (Postgres, Redis, ES, Kibana)
+├── docker/    # Podman Compose stacks (Postgres, Redis, ES, Kibana)
 └── scripts/   # Bash utilities for stack ops and file tasks
 ```
 
@@ -38,7 +38,7 @@ go run ./tools/go/cmd/rename
 
 See [tools/go/README.md](go/README.md) for details.
 
-## Docker (`tools/docker/`)
+## Podman (`tools/docker/`)
 
 Containerised local development stack:
 

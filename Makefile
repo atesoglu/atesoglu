@@ -73,7 +73,7 @@ shell-lint: ## Syntax-check and ShellCheck every script
 
 .PHONY: compose-config
 compose-config: ## Validate the Compose files against .env-sample
-	docker compose --env-file .env-sample \
+	podman compose --env-file .env-sample \
 		-f tools/docker/compose.observability.yaml -f tools/docker/compose.database.yaml \
 		--project-directory . -p dev-resources config --quiet
 

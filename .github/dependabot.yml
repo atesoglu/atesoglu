@@ -4,7 +4,7 @@ version: 2
 # cannot read. Bump that by hand; only the postgres and redis tags are updated automatically.
 updates:
   - package-ecosystem: docker-compose
-    directory: /docker
+    directory: /tools/docker
     schedule:
       interval: weekly
     open-pull-requests-limit: 5

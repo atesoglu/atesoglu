@@ -36,8 +36,8 @@ jobs:
 
       - name: Compose config
         run: |
-          docker compose --env-file .env-sample \
-            -f docker/compose.observability.yaml -f docker/compose.database.yaml \
+          podman compose --env-file .env-sample \
+            -f tools/docker/compose.observability.yaml -f tools/docker/compose.database.yaml \
             --project-directory . -p dev-resources config --quiet
 
       - name: Line endings
@@ -53,13 +53,13 @@ jobs:
     runs-on: ubuntu-latest
     defaults:
       run:
-        working-directory: cli
+        working-directory: tools/go
     steps:
       - uses: actions/checkout@v7
 
       - uses: actions/setup-go@v7
         with:
-          go-version-file: cli/go.mod
+          go-version-file: tools/go/go.mod
           # No third-party dependencies yet, so there is no go.sum to key a cache on.
           cache: false
 
