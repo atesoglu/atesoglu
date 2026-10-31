@@ -26,7 +26,7 @@ jobs:
           fail=0
           for f in $(git ls-files '*.sh'); do
             # scripts/lib/ is sourced, never executed.
-            case "$f" in scripts/lib/*) continue ;; esac
+            case "$f" in tools/scripts/lib/*) continue ;; esac
             if [ ! -x "$f" ]; then
               echo "::error file=$f::missing executable bit; fix with: git update-index --chmod=+x $f"
               fail=1
