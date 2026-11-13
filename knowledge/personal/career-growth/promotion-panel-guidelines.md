@@ -6,7 +6,7 @@
 
 This document describes a promotion-panel process for evaluating a developer for promotion to Senior .NET Engineer. Treat its cadence and roles as context-specific rather than universal.
 
-Use the [Personal Development Plan](personal-development-plan.md) to record and track identified growth areas, and the [Senior Software Engineer role expectations](senior-engineer-role-expectations.md) as a companion role reference.
+Use the [Personal Development Plan](personal-development-plan.md) to record and track identified growth areas, and the [Senior Software Engineer role profile](senior-engineer.md) as a companion role reference.
 
 ## Promotion Panel Process
 
@@ -22,4 +22,3 @@ Use the [Personal Development Plan](personal-development-plan.md) to record and 
     - Review the employee's potential, growth and readiness for promotion.
 5. **Panel Decision**
     - The panel recommends whether to promote the employee based on the discussion and evaluation.
-

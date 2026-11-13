@@ -4,21 +4,15 @@ Notes on testing strategy, test automation, staging environments, observability,
 
 ## Strategy and Methods
 
-- [Automated Testing and CI/CD](automated-testing.md) - Test types and pipeline integration.
-- [Modern Testing Methods](modern-testing-methods.md) - Index of the testing methods covered here.
-- [Why Testing Matters](why-testing-matters.md) - Testing value, TDD, and the limits of coverage metrics.
-- [Testing Tools and Approaches](testing-tools-and-approaches.md) - Tool selection, contract testing, chaos engineering, and test doubles.
-- [Mocking vs Fakes](mocking-vs-fakes.md) - Choosing test doubles for integration confidence.
+- [Testing Strategy](testing-strategy.md) - Why testing matters, test types, mocks versus fakes, microservices and E2E testing, CI/CD, and cloud execution.
 
 ## System and Environment Testing
 
-- [Microservices and End-to-End Testing](microservices-end-to-end-testing.md) - Integration, contract, E2E, performance, and security testing.
-- [Cloud Automated Testing](cloud-automated-testing.md) - Running automated tests in cloud environments.
 - [Staging Environment Management](staging-environment-management.md) - Managing and improving staging environments, including parity with production.
 - [Testing Metrics and Reporting](testing-metrics-and-reporting.md) - Measures for test effectiveness and delivery impact.
 
 ## Logging and Diagnostics
 
-- [Logging Index](logging/README.md) - Diagnostic, audit, structured logging, privacy, and operational guidance.
+- [Logging and Diagnostics](logging.md) - Diagnostic versus audit logging, structured fields, privacy, retention, and sampling.
 - [.NET Runtime Metrics](dotnet-runtime-metrics.md) - Runtime, GC, JIT, threading, and synchronization metrics.
 - [QA and Software Architect Collaboration](qa-software-architect-collaboration.md) - Collaboration between quality and architecture roles.

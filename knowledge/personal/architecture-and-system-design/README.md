@@ -4,13 +4,7 @@ Notes on architecture, boundaries, distributed systems, and system design decisi
 
 ## Loosely Coupled Monolith
 
-These documents are complementary source notes rather than duplicates:
-
-- [Creating a Loosely Coupled Monolith](creating-loosely-coupled-monolith.md) - Original conceptual transcript covering asynchronous messaging, bounded contexts, and strict boundaries.
-- [Loosely Coupled Monolith Structure](loosely-coupled-monolith-structure.md) - Concrete .NET project and solution structure using contracts, implementations, tests, an API host, and a worker.
-- [Loosely Coupled Monolith (2025 Edition)](loosely-coupled-monolith-2025.md) - Later update focused on cohesion, coupling, and the distinction between logical and physical boundaries.
-
-All three are transcripts or source-derived notes. Treat them as reference material rather than as a single canonical architecture prescription.
+- [Loosely Coupled Monolith](loosely-coupled-monolith.md) - Core principles, the 2025 update on cohesion and coupling, and the .NET project structure using contracts, implementations, tests, an API host, and a worker.
 
 ## Other Topics
 
@@ -19,4 +13,4 @@ All three are transcripts or source-derived notes. Treat them as reference mater
 - [System Design Principles](system-design-principles.md)
 - [Thin vs Fat Events](thin-vs-fat-events.md)
 - [Transaction Script vs DDD](transaction-script-vs-ddd.md)
-- [Tracy](tracy-overview.md) - Overview, anomaly detection, implementation, and tracing tools.
+- [Tracy](tracy.md) - Unified observability platform: problem, tracing tools, anomaly detection, and implementation plan.
