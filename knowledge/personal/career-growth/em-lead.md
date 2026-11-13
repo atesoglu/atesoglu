@@ -24,10 +24,10 @@ The Engineering Manager (EM) or Lead Engineer ensures that their team builds the
 - **Operational Rigor**: Accountable for the team's on-call health, testing coverage and incident response.
 
 ### 3. Essential Resources for the Role
-- [Software Estimation Guide](../processes-operations/software-estimation-guide.md)
+- [Proposal and Estimation Guide](../processes-operations/proposal-and-estimation-guide.md)
 - [Interviewing Guide](../team-management-mentoring/interviewing-guide.md)
-- [Handling Underperformance](../team-management-mentoring/handling-underperforming-employees.md)
-- [Guiding Colleagues](../team-management-mentoring/guiding-colleagues-on-outdated-methods.md)
+- [Handling Underperformance](../team-management-mentoring/people-management-playbook.md#3-handling-underperformance)
+- [Guiding Colleagues](../team-management-mentoring/people-management-playbook.md#4-guiding-colleagues-on-outdated-methods)
 - [EM Onboarding Guide](#first-30-days)
 - [EM Long-Term Strategy](#long-term-success)
 

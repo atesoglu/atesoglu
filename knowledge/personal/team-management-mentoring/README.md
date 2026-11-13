@@ -8,8 +8,4 @@ Notes on interviewing, leadership, mentoring, management, and people-related eng
 
 ## Leadership and People Management
 
-- [Leadership Readiness](leadership-readiness.md)
-- [Handling Underperformance](handling-underperforming-employees.md)
-- [Mistakes as a New Manager](mistakes-as-new-manager.md)
-- [Guiding Colleagues](guiding-colleagues-on-outdated-methods.md)
-- [Hiring: Efficiency vs Relationships](hiring-efficiency-vs-relationships.md) - Balancing signal and rapport in early hiring stages.
+- [People Management Playbook](people-management-playbook.md) - Leadership readiness, common new-manager mistakes, underperformance, guiding colleagues, and hiring trade-offs.

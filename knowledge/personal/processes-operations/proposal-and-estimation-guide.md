@@ -1,5 +1,5 @@
-# Proposal Preparation Guide
-This document is intended to serve as a guideline for preparing materials for the Steering Committee Review Folder. While we encourage teams to follow this structure as closely as possible, we understand that it may not always be possible to complete every section in full.
+# Proposal and Estimation Guide
+This document is intended to serve as a guideline for preparing materials for the Steering Committee Review Folder, with practical estimation guidance to keep delivery expectations realistic. While we encourage teams to follow this structure as closely as possible, we understand that it may not always be possible to complete every section in full.
 
 That said, providing thorough and consistent documentation -wherever possible- can be extremely valuable. These materials help ensure clarity and alignment ahead of committee discussions and they serve as a valuable reference when we need to revisit or reinforce key decisions in the future.
 
@@ -60,6 +60,14 @@ Miscellaneous materials that reinforce decisions or feasibility.
 - **Internal Wiki Links**: Links to Notion, GitHub pages, or SharePoint documentation
 - **Technical Articles or White-papers**: On BFF, serverless, container architecture, etc.
 - **Compliance Notes**: How revamp aligns with SOC 2, GDPR, or internal policies
+
+## 8. Estimation Guidance
+
+No matter what estimate a software engineer gives, expect to add 25–50% to it.
+
+Estimating realistically can be anxiety-inducing. Flip the narrative: whatever your worst-case scenario is, add more time, and then probably some more. If your top-end estimate begins to sound far-fetched, you are on the right track.
+
+There is an anti-estimate mindset in the industry, but it has never held up in practice. You will be asked for estimates, and the more senior you become, the more often it will happen. The purpose is to protect yourself, the team, and the company and to ensure smooth delivery. No one wins from promising too much.
 
 ## Suggested Folder Structure
 
@@ -159,8 +167,6 @@ Miscellaneous materials that reinforce decisions or feasibility.
 - Reviewed by a technical lead or architect
 - Checked for completeness, clarity and alignment with the proposal goals
 - Validated against this checklist for structure and content coverage
-
-
 
 # Anticipated Questions
 

@@ -8,9 +8,7 @@ Notes on architecture, boundaries, distributed systems, and system design decisi
 
 ## Other Topics
 
+- [Boundaries, Events, and Domain Modeling](boundaries-events-and-domain-modeling.md) - Splitting entities across contexts, thin versus fat events, and when to move from a transaction script to a domain model.
 - [Resilience and Stability Patterns](resiliency-and-stability-patterns.md)
-- [Service Boundaries and Splitting Entities](service-boundaries-splitting-entities.md)
 - [System Design Principles](system-design-principles.md)
-- [Thin vs Fat Events](thin-vs-fat-events.md)
-- [Transaction Script vs DDD](transaction-script-vs-ddd.md)
 - [Tracy](tracy.md) - Unified observability platform: problem, tracing tools, anomaly detection, and implementation plan.

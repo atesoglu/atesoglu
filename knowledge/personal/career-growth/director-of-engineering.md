@@ -25,8 +25,8 @@ The Director of Engineering ensures their department is healthy, the technical s
 
 ### 3. Essential Resources for the Role
 - [Product-Minded Engineering](./product-minded-engineering.md)
-- [Software Estimation Guide (Strategic Level)](../processes-operations/software-estimation-guide.md)
-- [Proposal Preparation Guide](../processes-operations/proposal-preparation-guide.md)
+- [Proposal and Estimation Guide (Strategic Level)](../processes-operations/proposal-and-estimation-guide.md)
+- [Estimation Guidance](../processes-operations/proposal-and-estimation-guide.md#8-estimation-guidance)
 - [Director Onboarding](#first-30-days)
 - [Director Long-Term Strategy](#long-term-success)
 

@@ -26,7 +26,7 @@ The CTO (Chief Technology Officer) ensures that the company's technology is a st
 
 ### 3. Essential Resources for the Role
 - [Product-Minded Engineering](./product-minded-engineering.md)
-- [Proposal Preparation Guide](../processes-operations/proposal-preparation-guide.md)
+- [Proposal and Estimation Guide](../processes-operations/proposal-and-estimation-guide.md)
 - [CTO Onboarding](#first-30-days)
 - [CTO Long-Term Strategy](#long-term-success)
 

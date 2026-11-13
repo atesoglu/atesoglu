@@ -131,6 +131,5 @@ Walk through your background, highlight key accomplishments and career moves, an
 
 ## Related
 
-- [Leadership Readiness](leadership-readiness.md)
-- [Mistakes as a New Manager](mistakes-as-new-manager.md)
+- [People Management Playbook](people-management-playbook.md) — leadership readiness, new-manager mistakes, underperformance, and hiring.
 - [Observability Interview Cheat Sheet](../../staff-engineer/interview-prep/observability/observability-cheat-sheet.md)

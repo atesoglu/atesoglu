@@ -15,5 +15,5 @@
 - Enjoy building APIs, working with data flow and ensuring reliability under load.
 - Prefer tackling business logic, scalability and performance.
 
-**Related:** [Personal Development Plan](personal-development-plan.md), [Product-Minded Engineering](product-minded-engineering.md)
+**Related:** [Career Planning and Promotion](career-planning-and-promotion.md), [Product-Minded Engineering](product-minded-engineering.md)
 

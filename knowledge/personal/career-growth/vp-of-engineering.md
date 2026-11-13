@@ -25,7 +25,7 @@ The VP of Engineering ensures the company has a world-class engineering team tha
 
 ### 3. Essential Resources for the Role
 - [Product-Minded Engineering](./product-minded-engineering.md)
-- [Promotion Panel Guidelines](./promotion-panel-guidelines.md)
+- [Promotion Panel Guidelines](./career-planning-and-promotion.md#promotion-panel-guidelines)
 - [VP Onboarding](#first-30-days)
 - [VP Long-Term Strategy](#long-term-success)
 

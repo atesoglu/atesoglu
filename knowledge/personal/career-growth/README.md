@@ -17,8 +17,7 @@ Each role has a single profile covering what the role is accountable for, the fi
 
 ## Development Planning and Promotion
 
-- [Personal Development Plan](personal-development-plan.md) - Reusable reflection and action-planning template.
-- [Promotion Panel Guidelines](promotion-panel-guidelines.md) - A specific promotion-panel process and preparation guide.
+- [Career Planning and Promotion](career-planning-and-promotion.md) - Personal development plan, OKR examples, and promotion-panel guidance.
 
 ## Role and Career Direction
 

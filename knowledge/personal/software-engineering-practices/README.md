@@ -11,12 +11,8 @@ Notes on software design, maintainability, implementation techniques, quality, a
 
 ## Maintainability and Quality
 
-- [Applying Abstractions](applying-abstractions.md) - Choosing abstractions that reduce cognitive load.
-- [Clean Code Critique](clean-code-critique-maintainability.md) - Practical maintainability critique.
-- [Code Maintainability Mistakes](code-maintainability-mistakes.md) - Common causes of avoidable maintenance cost.
-- [Engineering Principles](engineering-principles.md) - Compact reminders for maintainable engineering work.
-- [People-First Engineering](people-first-engineering.md) - Human and collaborative aspects of software engineering.
-- [Software Quality Perspectives](software-quality-perspectives.md) - Broader perspectives on software quality.
+- [Engineering Judgment](engineering-judgment.md) - Principles, people-first engineering, software quality perspectives, and applying abstractions.
+- [Maintainability Notes](maintainability-notes.md) - Clean Code critique, code isolation, and five common design mistakes.
 
 ## Implementation and Foundations
 

@@ -24,9 +24,9 @@ The Senior EM (or Manager of Managers) ensures that their managers are effective
 - **Risk Mitigation**: Proactively identifies large-scale technical or people risks (e.g., critical skill silos).
 
 ### 3. Essential Resources for the Role
-- [Mistakes as New Manager](../team-management-mentoring/mistakes-as-new-manager.md)
-- [Hiring: Efficiency vs Relationships](../team-management-mentoring/hiring-efficiency-vs-relationships.md)
-- [Personal Development Plan](./personal-development-plan.md)
+- [Mistakes as New Manager](../team-management-mentoring/people-management-playbook.md#2-seven-big-mistakes-i-made-as-a-new-manager)
+- [Hiring: Efficiency vs Relationships](../team-management-mentoring/people-management-playbook.md#5-hiring-efficiency-vs-relationships)
+- [Career Planning and Promotion](./career-planning-and-promotion.md)
 - [Senior EM Onboarding](#first-30-days)
 - [Senior EM Long-Term Strategy](#long-term-success)
 
