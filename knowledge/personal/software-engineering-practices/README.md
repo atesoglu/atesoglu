@@ -4,7 +4,6 @@ Notes on software design, maintainability, implementation techniques, quality, a
 
 ## Design and Architecture
 
-- [Clean Architecture](clean-architecture-principles.md) - Pragmatic reasons for separating application concerns.
 - [Clean Architecture and DDD](clean-architecture-and-ddd.md) - Layer responsibilities, validation, factories, and Result types.
 - [Minimal APIs vs Controllers](minimal-apis-vs-controllers.md) - Trade-offs in .NET API design.
 - [Plugin Architecture in Go](plugin-architecture-go.md) - Designing extensible Go systems.
@@ -22,6 +21,7 @@ Notes on software design, maintainability, implementation techniques, quality, a
 ## Implementation and Foundations
 
 - [Async, Task and ValueTask](async-task-and-valuetask.md) - Choosing Task and ValueTask for synchronous implementations.
+- [From C# Instincts to Go](csharp-to-go.md) - Translating C# habits into idiomatic Go.
 - [Data Structures and Algorithms](data-structures-algorithms-fundamentals.md) - Core algorithmic foundations.
 - [Design Patterns Cheat Sheet](design-patterns-cheat-sheet.md) - Quick reference for common patterns.
 - [Modern Error Handling and the Result Pattern](modern-error-handling-and-results.md) - Explicit results, exceptions, and trade-offs.

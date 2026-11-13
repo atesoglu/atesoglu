@@ -17,7 +17,3 @@ A compact set of reminders for building and maintaining software.
 - Software is never truly finished.
 - Estimates are not promises.
 - Ship early and iterate deliberately.
-
-## Source
-
-The original mixed notes are preserved in [quick-notes-source.md](../../drafts/quick-notes-source.md).

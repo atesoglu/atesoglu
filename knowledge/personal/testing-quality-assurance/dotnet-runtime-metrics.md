@@ -25,7 +25,3 @@ A reference for the main .NET runtime metrics surfaced by tools such as Rider du
 ## Interpretation
 
 Interpret metrics in the context of a representative workload and a defined measurement window. Compare allocation rate, GC pause time, CPU, latency, throughput, and memory together. A zero GC count or low allocation rate during an idle measurement says little about a completed benchmark, and a high counter is not automatically a defect without a user-visible impact or a baseline comparison.
-
-## Source
-
-The original mixed notes are preserved in [quick-notes-source.md](../../drafts/quick-notes-source.md).

@@ -7,6 +7,8 @@ DDD is about entropy. It uses natural language to increase the information of co
 
 If you're building a .NET/C# solution using Clean Architecture and Domain-Driven Design (DDD), one of the first challenges you'll face is deciding what goes where. The Infrastructure and API layers are usually straightforward, but the boundary between Domain and Application layers can be fuzzy. Let's clear that up.
 
+Clean Architecture provides a repeatable structure for separating business rules, application workflows, infrastructure, and presentation. It can reduce reinvention at the start of a project, but the boundaries should serve the domain rather than become ceremony.
+
 Clean Architecture describes dependency and boundary organization; DDD is a way to model business complexity. They can be used together, but DDD is not required for every feature. For simpler CRUD-oriented workflows, see [Transaction Script vs DDD](../architecture-and-system-design/transaction-script-vs-ddd.md) before introducing aggregates or rich domain models.
 
 ## The Domain Layer: Your Pure Business Logic

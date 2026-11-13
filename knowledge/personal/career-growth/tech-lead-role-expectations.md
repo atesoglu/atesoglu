@@ -28,7 +28,7 @@ The Tech Lead (TL) ensures that the team ships high-quality, scalable code that 
 
 ## 3. Essential Resources for the Role
 - [Modern Error Handling & Results](../software-engineering-practices/modern-error-handling-and-results.md)
-- [Clean Architecture Principles](../software-engineering-practices/clean-architecture-principles.md)
+- [Clean Architecture and DDD](../software-engineering-practices/clean-architecture-and-ddd.md)
 - [Resilience & Stability Patterns](../architecture-and-system-design/resiliency-and-stability-patterns.md)
 - [Estimation Guide](../processes-operations/software-estimation-guide.md)
 - [Tech Lead Onboarding](./tech-lead-onboarding-guide.md)

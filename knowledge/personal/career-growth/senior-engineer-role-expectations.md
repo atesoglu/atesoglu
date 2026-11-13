@@ -29,6 +29,6 @@ The Senior Software Engineer ensures that features are built reliably, technical
 ## 3. Essential Resources for the Role
 - [Modern Error Handling & Results](../software-engineering-practices/modern-error-handling-and-results.md)
 - [Why Testing Matters](../testing-quality-assurance/why-testing-matters.md)
-- [Clean Architecture Principles](../software-engineering-practices/clean-architecture-principles.md)
+- [Clean Architecture and DDD](../software-engineering-practices/clean-architecture-and-ddd.md)
 - [Senior Engineer Onboarding](./senior-engineer-onboarding-guide.md)
 - [Senior Engineer Long-Term Strategy](./senior-engineer-long-term-success.md)

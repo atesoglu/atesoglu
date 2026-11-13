@@ -33,4 +33,3 @@ These documents are deliberately kept separate because they answer different que
 
 - [Architect Competency Matrix](architect-competency-matrix.md)
 - [Product-Minded Engineering](product-minded-engineering.md)
-- [Real Work of Senior Engineers](real-work-of-senior-engineers.md)

@@ -18,3 +18,9 @@
 
 **Related:** [Diagnostic vs Audit Logging](diagnostic-vs-audit.md) — when to use diagnostic vs. audit outputs.
 
+## Core Reminders
+
+- Provide context and log IDs rather than whole objects.
+- Emit structured logs (timestamp, level, component, message, fields).
+- Never log secrets or full PII. Use retention and access controls for sensitive logs.
+

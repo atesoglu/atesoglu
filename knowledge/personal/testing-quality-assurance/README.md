@@ -14,14 +14,11 @@ Notes on testing strategy, test automation, staging environments, observability,
 
 - [Microservices and End-to-End Testing](microservices-end-to-end-testing.md) - Integration, contract, E2E, performance, and security testing.
 - [Cloud Automated Testing](cloud-automated-testing.md) - Running automated tests in cloud environments.
-- [Staging Environment Management](staging-environment-management.md) - Managing and improving staging environments.
-- [Staging Environment Parity](staging-environment-parity.md) - Keeping staging close to production.
+- [Staging Environment Management](staging-environment-management.md) - Managing and improving staging environments, including parity with production.
 - [Testing Metrics and Reporting](testing-metrics-and-reporting.md) - Measures for test effectiveness and delivery impact.
-- [TPP Testing and Staging Improvements](tpp-testing-and-staging-environment-improvements.md) - Index of related testing and staging guidance.
 
 ## Logging and Diagnostics
 
-- [Logging Best Practices](logging-best-practices.md) - Overview of the focused logging notes.
 - [Logging Index](logging/README.md) - Diagnostic, audit, structured logging, privacy, and operational guidance.
 - [.NET Runtime Metrics](dotnet-runtime-metrics.md) - Runtime, GC, JIT, threading, and synchronization metrics.
 - [QA and Software Architect Collaboration](qa-software-architect-collaboration.md) - Collaboration between quality and architecture roles.

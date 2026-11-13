@@ -41,7 +41,3 @@ Technical debt is easier to prioritize when its operational or business conseque
 - A single point of failure can create revenue risk.
 
 The point is not to avoid technical language, but to connect architecture and maintenance work to the cost of inaction.
-
-## Source
-
-The original mixed notes are preserved in [quick-notes-source.md](../drafts/quick-notes-source.md).

@@ -15,8 +15,8 @@ A collection of personal and professional notes on software engineering, archite
 - [Agile Principles](personal/software-engineering-practices/agile-principles.md)
 - [Engineering Principles](personal/software-engineering-practices/engineering-principles.md)
 - [Modern Error Handling & Results](personal/software-engineering-practices/modern-error-handling-and-results.md)
-- [Clean Architecture](personal/software-engineering-practices/clean-architecture-principles.md)
 - [Clean Architecture and DDD](personal/software-engineering-practices/clean-architecture-and-ddd.md)
+- [From C# Instincts to Go](personal/software-engineering-practices/csharp-to-go.md)
 - [Clean Code Critique](personal/software-engineering-practices/clean-code-critique-maintainability.md)
 - [Code Maintainability Mistakes](personal/software-engineering-practices/code-maintainability-mistakes.md)
 - [Data Structures & Algorithms](personal/software-engineering-practices/data-structures-algorithms-fundamentals.md)
@@ -43,13 +43,12 @@ A collection of personal and professional notes on software engineering, archite
 - [Automated Testing](personal/testing-quality-assurance/automated-testing.md)
 - [Cloud Automated Testing](personal/testing-quality-assurance/cloud-automated-testing.md)
 - [.NET Runtime Metrics](personal/testing-quality-assurance/dotnet-runtime-metrics.md)
-- [Logging Best Practices](personal/testing-quality-assurance/logging-best-practices.md)
+- [Logging Index](personal/testing-quality-assurance/logging/README.md)
 - [Microservices Testing Strategy](personal/testing-quality-assurance/microservices-end-to-end-testing.md)
 - [Mocking vs Fakes](personal/testing-quality-assurance/mocking-vs-fakes.md)
 - [Modern Testing Methods](personal/testing-quality-assurance/modern-testing-methods.md)
 - [QA & Architect Collaboration](personal/testing-quality-assurance/qa-software-architect-collaboration.md)
 - [Staging Environment Management](personal/testing-quality-assurance/staging-environment-management.md)
-- [Staging Environment Parity](personal/testing-quality-assurance/staging-environment-parity.md)
 - [Testing Metrics & Reporting](personal/testing-quality-assurance/testing-metrics-and-reporting.md)
 - [Testing Tools & Approaches](personal/testing-quality-assurance/testing-tools-and-approaches.md)
 - [Why Testing Matters](personal/testing-quality-assurance/why-testing-matters.md)
@@ -77,7 +76,6 @@ A collection of personal and professional notes on software engineering, archite
 - [Personal Development Plan](personal/career-growth/personal-development-plan.md)
 - [Product-Minded Engineering](personal/career-growth/product-minded-engineering.md)
 - [Promotion Panel Guidelines](personal/career-growth/promotion-panel-guidelines.md)
-- [Real Work of Senior Engineers](personal/career-growth/real-work-of-senior-engineers.md)
 - [Software Engineer OKRs](personal/career-growth/software-engineer-okr-examples.md)
 - [Success Factors](personal/career-growth/success-factors-notes.md)
 
@@ -97,9 +95,8 @@ A collection of personal and professional notes on software engineering, archite
 - [Mistakes as New Manager](personal/team-management-mentoring/mistakes-as-new-manager.md)
 
 ### [Operations](personal/processes-operations/)
-*Estimation, tactical processes, proposals, and data management.*
+*Estimation, tactical processes, and proposals.*
 
-- [Data Management](personal/processes-operations/data-management.md)
 - [Process Improvement (PIP)](personal/processes-operations/process-improvement-plan-pip.md)
 - [Proposal Preparation Guide](personal/processes-operations/proposal-preparation-guide.md)
 - [Software Estimation Guide](personal/processes-operations/software-estimation-guide.md)
@@ -108,7 +105,6 @@ A collection of personal and professional notes on software engineering, archite
 *Personal effectiveness and time management.*
 
 - [Time Management Techniques](personal/productivity-habits/time-management-techniques.md)
-- [Workspace Setup](personal/productivity-habits/workspace-setup.md)
 
 ### [References](personal/resources/)
 *Reference material and collections.*
@@ -119,10 +115,8 @@ A collection of personal and professional notes on software engineering, archite
 *General workplace-related notes not tied to any specific employer.*
 
 - [About AI](workplace/about-ai.md)
-- [Check-ins](workplace/check-ins.md)
 - [Engineering Organizational Signals](workplace/engineering-organizational-signals.md)
 - [Engineering Work and Leadership](workplace/engineering-work-and-leadership.md)
-- [Greetings](workplace/greetings.md)
 - [Leadership](workplace/leadership.md)
 
 ### [Decisions](decisions/)
@@ -136,7 +130,6 @@ A collection of personal and professional notes on software engineering, archite
 
 - **[Developer Tools](../tools/)** — Go CLI utilities, Docker stacks, and Bash scripts
 - **[AI Prompts](../prompts/)** — Reusable prompts for engineering review, writing, and investigation
-- **[Writings](../writings/)** — Writing drafts and published pieces
 
 ---
 

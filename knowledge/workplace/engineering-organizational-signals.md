@@ -19,7 +19,3 @@ Notes on the organizational conditions that shape engineering effectiveness.
 - Shared knowledge makes systems resilient.
 - Healthy engineering cultures support open information flow and safe disagreement.
 - The quality of an engineer's workday is a useful signal of system health.
-
-## Source
-
-The original mixed notes are preserved in [quick-notes-source.md](../drafts/quick-notes-source.md).

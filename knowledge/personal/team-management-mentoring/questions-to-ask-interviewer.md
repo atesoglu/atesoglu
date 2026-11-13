@@ -52,3 +52,10 @@
 - **Can you tell me more about the company's DNA and future direction?**
 - **Regarding the innovation process: Is it "move fast and break things" or precision and artistry?**
 - **What is the company's background in healthcare and how did Zivver come about?**
+
+## TECHNICAL CHALLENGES AND OWNERSHIP
+
+- What are the team's main technical challenges over the next 12–18 months?
+- How much ownership will I have over architecture and technical direction?
+- How does the team balance new product development with operational support?
+- What does success look like after six months?

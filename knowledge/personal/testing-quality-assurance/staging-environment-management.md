@@ -2,6 +2,10 @@
 
 **Summary:** Best practices for managing staging environments, ensuring consistency with production and metrics for improvement.
 
+## Core Principle
+
+Staging should be close enough to production that configuration drift, deployment differences, observability gaps, and capacity assumptions are exposed before release.
+
 ## Maintaining Consistency with Production (Parity)
 
 - **Configuration Management**: Version control config files.

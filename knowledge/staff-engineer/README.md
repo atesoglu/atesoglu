@@ -14,7 +14,7 @@ This area focuses on the **unique challenges of Staff+ roles**:
 
 ## Contents
 
-*(This section is a placeholder. Populate with curated content from career-growth/, team-management-mentoring/, and workplace/ as relevant.)*
+- [Observability Interview Cheat Sheet](interview-prep/observability/observability-cheat-sheet.md) - SLOs, error budgets, telemetry design, and Staff-level reliability reasoning.
 
 ### Potential Topics
 

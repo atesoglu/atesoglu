@@ -1,0 +1,104 @@
+# Vocabulary Definitions
+
+A reference list of terms and definitions, extracted from [greetings.md](greetings.md).
+
+- Aberration – A departure from normal, an irregularity.
+- Acumen – Sharpness of insight, quick judgment.
+- Ad-hoc – For a specific purpose, improvised.
+- Amalgamate – To combine or unite, to merge.
+- Ancillary – Providing support, supplementary.
+- Anomalous – Deviating from the norm, irregular.
+- Antithesis – Direct opposite, stark contrast.
+- Aphorism – Pithy truth, concise statement.
+- Arcane – Understood by few, mysterious.
+- Augment – To make greater, to increase.
+- Banal – Lacking originality, commonplace.
+- Bifurcate – To divide into two branches.
+- Cajole – To persuade by flattery, to coax.
+- Capitulate – To cease resistance, to surrender.
+- Catalyst – Something causing change, a trigger.
+- Cavalier – Disregardful, offhand.
+- Cerebral – Intellectual, brainy.
+- Chicanery – Deception, trickery.
+- Circumlocution – Indirect speech, evasiveness.
+- Cognizant – Aware, having knowledge.
+- Commensurate – Proportionate, corresponding.
+- Concomitant – Accompanying, naturally associated.
+- Conjecture – Opinion based on incomplete info, a guess.
+- Consummate – Complete, highly skilled.
+- Contingent – Dependent on something else, conditional.
+- Corroborate – To confirm, to verify.
+- Credence – Belief or acceptance as true.
+- Cynic – Believer in self-interest, a doubter.
+- Delineate – To describe precisely, to outline.
+- Denigrate – To criticize unfairly, to disparage.
+- Derelict – In poor condition due to neglect, abandoned.
+- Didactic – Intended to teach, instructive.
+- Disparate – Fundamentally different, distinct.
+- Disseminate – To spread widely, to broadcast.
+- Dubious – Doubtful, questionable.
+- Eclectic – Diverse, drawing from various sources.
+- Efficacy – Ability to produce a result, effectiveness.
+- Egregious – Outstandingly bad, shocking.
+- Elucidate – To make clear, to explain.
+- Eminent – Famous and respected, prominent.
+- Empirical – Based on observation or experience.
+- Enervate – To drain energy, to weaken.
+- Equivocate – To use ambiguous language, to mislead.
+- Erudite – Having great knowledge, scholarly.
+- Eschew – To deliberately avoid, to abstain from.
+- Euphemism – Mild substitute for harsh word.
+- Exacerbate – To make worse, to aggravate.
+- Expedite – To speed up, to accelerate.
+- Extemporaneous – Done without preparation, impromptu.
+- Facetious – Humorous on serious issues, flippant.
+- Fastidious – Attentive to detail, meticulous.
+- Fathom – To understand deeply.
+- Feasible – Possible to do, practicable.
+- Fervent – Passionately intense, ardent.
+- Flagrant – Obviously offensive, blatant.
+- Florid – Excessively ornate, intricate.
+- Garrulous – Excessively talkative.
+- Gregarious – Fond of company, sociable.
+- Hegemony – Dominance by one group, leadership.
+- Idiosyncrasy – A distinct peculiarity.
+- Ignominious – Causing disgrace, shameful.
+- Impecunious – Having little money, penniless.
+- Impetuous – Acting without thought, impulsive.
+- Incendiary – Causing conflict, inflammatory.
+- Inchoate – Not fully formed, rudimentary.
+- Indefatigable – Persisting tirelessly.
+- Indolent – Lazy, wanting to avoid exertion.
+- Inert – Lacking movement or vigor.
+- Ingratiate – To gain favor by flattery.
+- Inherent – Essential, intrinsic.
+- Insinuate – To hint indirectly, to imply.
+- Insipid – Lacking interest or flavor, bland.
+- Insurgent – A rebel, a revolutionary.
+- Intrepid – Fearless, adventurous.
+- Juxtapose – To place side by side for contrast.
+- Languid – Slow and relaxed, listless.
+- Largesse – Generosity of spirit or gifts.
+- Lassitude – Weariness, lack of energy.
+- Lugubrious – Dismal and gloomy, mournful.
+- Mellifluous – Sweetly or smoothly flowing (sound).
+- Mendacious – Untruthful, lying.
+- Misanthrope – One who dislikes humankind.
+- Mitigate – To make less severe, to alleviate.
+- Modicum – A small quantity.
+- Nefarious – Wicked or criminal.
+- Nonchalant – Casually calm and relaxed.
+- Obfuscate – To make unclear, to confuse.
+- Obsequious – Excessively eager to please.
+- Ostracize – To exclude from a group.
+- Palpable – Tangible, easily perceived.
+- Pernicious – Harmful in a subtle way.
+- Pithy – Concise and expressive.
+- Plethora – An excessive amount.
+- Portent – A sign of future event, an omen.
+- Prevaricate – To speak evasively, to equivocate.
+- Proclivity – A strong tendency, an inclination.
+- Prodigious – Remarkably great, immense.
+- Querulous – Complaining, whining.
+- Rancor – Deep-seated bitterness, resentment.
+- Recalcitrant – Stubbornly uncooperative, resistant.

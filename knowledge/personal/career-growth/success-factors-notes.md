@@ -6,6 +6,7 @@
 - [Process Improvement Plan (PIP) Template](../processes-operations/process-improvement-plan-pip.md)
 - [Time Management Techniques](../productivity-habits/time-management-techniques.md)
 - [Software Engineer OKRs & Goals](software-engineer-okr-examples.md)
-- [Workspace Setup](../productivity-habits/workspace-setup.md)
 - [Promotion Panel Guidelines](promotion-panel-guidelines.md)
+- [Interview Preparation Tips](../team-management-mentoring/interview-preparation-tips.md)
+- [Tech Lead Role Expectations](tech-lead-role-expectations.md)
 
