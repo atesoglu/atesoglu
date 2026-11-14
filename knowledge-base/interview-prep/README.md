@@ -31,6 +31,6 @@ This area focuses on challenges that grow with Staff and Principal roles:
 
 ## Related
 
-- [Career Growth](../team-management-coaching/carreer-growth.md) - Role expectations and promotion paths.
+- [Career Growth](../team-management-coaching/career-growth.md) - Role expectations and promotion paths.
 - [People Management](../team-management-coaching/people-management-playbook.md) - Leadership readiness, hiring, and coaching.
 - [Engineering Leadership](../team-management-coaching/engineering-leadership.md) - Organizational signals and leadership practices.

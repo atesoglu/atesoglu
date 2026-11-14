@@ -4,7 +4,7 @@ Notes on career growth, leadership, mentoring, management, and personal effectiv
 
 ## Career Development
 
-- [Career Growth](carreer-growth.md) - Role profiles, career planning, and promotion guidance.
+- [Career Growth](career-growth.md) - Role profiles, career planning, and promotion guidance.
 - [Time Management](time-management-techniques.md) - Practical time-management techniques and personal effectiveness.
 
 ## Leadership and Coaching

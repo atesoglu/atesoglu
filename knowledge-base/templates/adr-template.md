@@ -1,37 +1,39 @@
-# Decisions
+# Architecture Decision Record Template
 
-Architecture Decision Records (ADRs), tradeoff analyses, and lessons learned from significant technical choices.
+Use this template to capture **why** an architectural or technical decision was made, so future readers understand the context, alternatives, and expected consequences.
 
-## Purpose
+## When to Use an ADR
 
-This folder captures **why** certain architectural or technical decisions were made, so future readers (including future me) understand the context, alternatives considered, and expected consequences.
+Write an ADR when a decision:
 
-## Format
+- Changes system structure, boundaries, or dependencies.
+- Introduces a significant technology or platform choice.
+- Accepts a meaningful trade-off that future maintainers should know about.
+- Is likely to be revisited or superseded.
 
-Each decision should be a separate Markdown file named `YYYY-MM-DD-short-title.md` with this structure:
+## Template
+
+Copy the block below into a new file named `YYYY-MM-DD-short-title.md`.
 
 ```markdown
-# Title
+# [Short, specific decision title]
 
-**Date**: YYYY-MM-DD
-**Status**: Proposed | Accepted | Superseded | Deprecated
-**Context**: What situation led to this decision?
-**Decision**: What was chosen?
-**Alternatives**: What else was considered?
-**Consequences**: What are the tradeoffs (positive and negative)?
-**Links**: Related docs, issues, PRs
+- **Date:** YYYY-MM-DD
+- **Status:** Proposed | Accepted | Superseded | Deprecated
+- **Owner:** [Name or role]
+- **Context:** What situation led to this decision?
+- **Decision:** What was chosen?
+- **Alternatives considered:** What else was evaluated, and why was it rejected?
+- **Consequences:** What are the positive and negative outcomes?
+- **Follow-up actions:** What must happen next, if anything?
+- **Links:** Related documents, issues, pull requests, or discussions.
 ```
 
-## Index
+## Writing Guidance
 
-*(No decisions recorded yet. Add files as decisions are made.)*
-
----
-
-## Guidance
-
-- Write decisions **close to the time they're made**, not retroactively
-- Include **enough context** that someone unfamiliar with the situation can understand
-- Be honest about **uncertainties and risks**
-- Link to related code, docs, or discussions
-- If a decision is later changed, add a new ADR that **supersedes** the old one (don't delete)
+- Store each ADR as a separate file in the project's decision-record folder.
+- Write decisions **close to the time they are made**, not retrospectively.
+- Include enough context that someone unfamiliar with the situation can understand it.
+- Be honest about uncertainties, risks, and negative consequences.
+- Link to related code, documents, issues, or discussions.
+- If a decision changes later, add a new ADR that **supersedes** the old one instead of deleting history.

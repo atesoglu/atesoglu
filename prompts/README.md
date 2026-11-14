@@ -23,4 +23,4 @@ Reusable prompts for repository investigation, engineering review, writing, and 
 
 ## Related
 
-- [Knowledge](../knowledge/) — Reference material for engineering prompts
+- [Knowledge](../knowledge-base/) — Reference material for engineering prompts

@@ -10,9 +10,9 @@ Career development notes, role profiles, onboarding guidance, and long-term grow
 Each role has a single profile covering what the role is accountable for, the first 30 days, long-term success, failure modes, and the promotion path.
 
 - [Senior Software Engineer](#senior-software-engineer)
-- [Tech Lead / Team Lead](#tech-lead-team-lead)
+- [Tech Lead / Team Lead](#tech-lead--team-lead)
 - [Principal Software Engineer](#principal-software-engineer)
-- [EM / Lead Engineer](#em-lead-engineer)
+- [EM / Lead Engineer](#em--lead-engineer)
 - [Senior Engineering Manager](#senior-engineering-manager)
 - [Director of Engineering](#director-of-engineering)
 - [VP of Engineering](#vp-of-engineering)
@@ -223,8 +223,8 @@ The Tech Lead (TL) ensures that the team ships high-quality, scalable code that 
 - [Clean Architecture and DDD](../engineering-practices/clean-architecture-and-ddd.md)
 - [Resilience & Stability Patterns](../engineering-practices/resiliency-and-stability-patterns.md)
 - [Estimation Guidance](../templates/proposal-and-estimation-guide.md#8-estimation-guidance)
-- [Tech Lead Onboarding](#tech-lead-team-lead-first-30-days)
-- [Tech Lead Long-Term Strategy](#tech-lead-team-lead-long-term-success)
+- [Tech Lead Onboarding](#tech-lead--team-lead-first-30-days)
+- [Tech Lead Long-Term Strategy](#tech-lead--team-lead-long-term-success)
 
 ### Tech Lead / Team Lead: First 30 Days
 
@@ -470,8 +470,8 @@ The Engineering Manager (EM) or Lead Engineer ensures that their team builds the
 - [Interviewing Guide](../interview-prep/interviewing-guide.md)
 - [Handling Underperformance](people-management-playbook.md#3-handling-underperformance)
 - [Guiding Colleagues](people-management-playbook.md#4-guiding-colleagues-on-outdated-methods)
-- [EM Onboarding Guide](#em-lead-engineer-first-30-days)
-- [EM Long-Term Strategy](#em-lead-engineer-long-term-success)
+- [EM Onboarding Guide](#em--lead-engineer-first-30-days)
+- [EM Long-Term Strategy](#em--lead-engineer-long-term-success)
 
 ### EM / Lead Engineer: First 30 Days
 

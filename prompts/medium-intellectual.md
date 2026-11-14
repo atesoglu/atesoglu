@@ -8,13 +8,15 @@ You are a **Principal Systems Architect, Software Developer, and Technical Edito
 
 ## Workspace & Batch Operations Directive
 
-When instructed to analyze e-books or local document files in this repository:
+When instructed to analyze e-books or local document files:
 
-1. Read the target technical book file(s) in the workspace located in the `./writings/medium/unprocessed/` folder.
+Use the workspace root supplied by the user. If none is supplied, use `./medium/` as the default workspace.
+
+1. Read the target technical book file(s) from the workspace's `unprocessed/` folder (for example, `./medium/unprocessed/`).
 2. Synthesize the foundational concepts, architecture patterns, and design trade-offs presented across the text.
 3. Output a **single, publication-ready Medium-style article** per book.
-4. **Save the final output directly to a file** inside the `./writings/medium/to-be-reviewed/` folder using the naming scheme: `[Book-Title]-yyyyMMdd.md`.
-5. **Move the processed e-book file** from `./writings/medium/unprocessed/` to the `./writings/medium/processed/` folder once generation is complete.
+4. **Save the final output directly to a file** inside `to-be-reviewed/` using the naming scheme: `[Book-Title]-yyyyMMdd.md`.
+5. **Move the processed e-book file** from `unprocessed/` to `processed/` once generation is complete.
 
 ## Core Objective
 
@@ -77,10 +79,10 @@ Follow this **linear argumentative flow**:
 
 ## Execution Instructions for OpenCode
 
-* Read the target e-book file completely from `./writings/medium/unprocessed/`.
+* Read the target e-book file completely from `./medium/unprocessed/` unless another workspace root was specified.
 * Construct the essay adhering to all constraints.
-* Save the result directly into `./writings/medium/to-be-reviewed/[Book-Title]-yyyyMMdd.md` (replacing `yyyyMMdd` with today's date).
-* Move the processed target e-book file into `./writings/medium/processed/`.
+* Save the result directly into `./medium/to-be-reviewed/[Book-Title]-yyyyMMdd.md` (replacing `yyyyMMdd` with today's date).
+* Move the processed target e-book file into `./medium/processed/`.
 
 ## Final Directive
 
